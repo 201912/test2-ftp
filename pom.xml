@@ -62,63 +62,7 @@
 			</snapshots>
 		</repository>
 	</repositories>
-	<profiles>
-		<profile>
-			<id>snapshot</id>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-			</activation>
-			<repositories>
-				<repository>
-					<id>krlibs</id>
-					<url>http://192.168.10.50:8081/artifactory/krLibs_SNAPSHOT</url>
-					<snapshots>
-						<enabled>true</enabled>
-					</snapshots>
-				</repository>
-			</repositories>
-		</profile>
-		<profile>
-			<id>develop</id>
-			<repositories>
-				<repository>
-					<id>krlibs</id>
-					<url>http://192.168.10.50:8081/artifactory/krLibs_DEVELOP</url>
-					<snapshots>
-						<enabled>true</enabled>
-					</snapshots>
-				</repository>
-			</repositories>
-		</profile>
-		<profile>
-			<id>master</id>
-			<repositories>
-				<repository>
-					<id>krlibs</id>
-					<url>http://192.168.10.50:8081/artifactory/krLibs_MASTER</url>
-					<snapshots>
-						<enabled>true</enabled>
-					</snapshots>
-				</repository>
-			</repositories>
-		</profile>
-	</profiles>
 	<dependencies>
-		<dependency>
-			<groupId>krLibs</groupId>
-			<artifactId>krDatabase</artifactId>
-			<version>1.0-SNAPSHOT</version>
-		</dependency>
-        <dependency>
-            <groupId>krLibs</groupId>
-            <artifactId>krDao</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-		<dependency>
-			<groupId>krLibs</groupId>
-			<artifactId>krCommon</artifactId>
-			<version>1.0-SNAPSHOT</version>
-		</dependency>
 		<dependency>
 			<groupId>com.jcraft</groupId>
 			<artifactId>jsch</artifactId>
