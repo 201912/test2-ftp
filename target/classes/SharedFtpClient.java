@@ -10,7 +10,7 @@ public class SharedFtpClient {
 			sharedFtpClientInstance = new MyFtpClient();
 			//AutoCloseable connection initialized
 //			sharedFtpClientInstance.connect("ezyro_20642594", "nn4qyksc98esiq", "185.27.134.11", 21);
-			sharedFtpClientInstance.connect("test", "test", "10.2.64.251", 21);
+			sharedFtpClientInstance.connect("ftpuser", "ftpuser", "15.222.124.34", 21);
 		}
 		return sharedFtpClientInstance;
 	}
